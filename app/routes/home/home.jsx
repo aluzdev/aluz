@@ -106,16 +106,16 @@ export const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Reinventing the way of traveling by bus"
-        description="Developed the current responsive design of a bus travel tech startup"
+        description="Developed the current design of kolors.com.mx, which is viewed ~500,000 times per month."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://kolors.com.mx/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: '',
           textures: [
             {
-              srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
-              placeholder: sprTexturePlaceholder,
+              srcSet: `${kolors} 800w, ${kolorsBig} 1920w`,
+              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}
@@ -153,7 +153,7 @@ export const Home = () => {
         title="Biomedical image collaboration"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://kolors.com.mx/"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
