@@ -42,7 +42,6 @@ export function ProjectSummary({
   const indexText = index < 10 ? `0${index}` : index;
   const phoneSizes = `(max-width: ${media.tablet}px) 30vw, 20vw`;
   const laptopSizes = `(max-width: ${media.tablet}px) 80vw, 40vw`;
-
   function handleModelLoad() {
     setModelLoaded(true);
   }

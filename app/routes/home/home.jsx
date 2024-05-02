@@ -7,6 +7,8 @@ import gamestackTexture from '~/assets/gamestack-login.jpg';
 import sliceTextureLarge from '~/assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/slice-app.jpg';
+import kolors from '~/assets/kolorsmx.jpg';
+import kolorsBig from '~/assets/kolorsmx_big.jpg';
 import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
@@ -103,8 +105,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Reinventing the way of traveling by bus"
+        description="Developed the current responsive design of a bus travel tech startup"
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
@@ -157,7 +159,7 @@ export const Home = () => {
           alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {
-              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
+              srcSet: `${kolors} 800w, ${kolorsBig} 1920w`,
               placeholder: sliceTexturePlaceholder,
             },
           ],

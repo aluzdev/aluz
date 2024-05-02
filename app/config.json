@@ -1,11 +1,11 @@
 {
-  "name": "Hamish Williams",
-  "role": "Designer",
-  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
+  "name": "Cristian Molina",
+  "role": "Software Engineer",
+  "disciplines": ["QA-Automation", "Front-end", "Full-stack", "QA Manual"],
   "url": "https://hamishw.com",
   "twitter": "@hamishMW",
   "figma": "@Hamish",
-  "github": "HamishMW",
+  "github": "aluzdev",
   "repo": "https://github.com/HamishMW/portfolio",
   "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
 }
