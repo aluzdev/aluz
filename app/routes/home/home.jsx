@@ -9,6 +9,11 @@ import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/slice-app.jpg';
 import kolors from '~/assets/kolorsmx.jpg';
 import kolorsBig from '~/assets/kolorsmx_big.jpg';
+import kolorsbiz from '~/assets/kolorsbiz.jpg';
+import kolorsbizBig from '~/assets/kolorsbiz_big.jpg';
+import kmobile from '~/assets/kmobile.jpg';
+import kmobileBig from '~/assets/kmobile_big.jpg';
+
 import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
@@ -122,44 +127,40 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-2"
-        alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="Kolors B2B"
+        description="We take your workers from their house to your office"
+        buttonText="View project"
+        buttonLink="https://kolorsbiz.com.mx/"
         model={{
-          type: 'phone',
-          alt: 'App login screen',
+          type: 'laptop',
+          alt: '',
           textures: [
             {
-              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: `${kolorsbiz} 800w, ${kolorsbizBig} 1920w`,
+              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}
       />
+
       <ProjectSummary
         id="project-3"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Kolors Mobile"
+        description="Affordable mobile plans for individuals and enterprises"
         buttonText="View project"
-        buttonLink="https://kolors.com.mx/"
+        buttonLink="https://kolorsmobile.com.mx/"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: '',
           textures: [
             {
-              srcSet: `${kolors} 800w, ${kolorsBig} 1920w`,
+              srcSet: `${kmobile} 800w, ${kmobileBig} 1920w`,
               placeholder: sliceTexturePlaceholder,
             },
           ],
