@@ -21,16 +21,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I'm Cris! a web-focused software engineer with 4 years of experience in software
+      development, proficient in React.js and Node.js; holder of a master's in software
+      engineering from The University of Texas at El Paso, and skilled in modern web
+      technologies. Fluent in English and Spanish.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my spare time I like to play bass, piano, electric & acoustic guitar!
     </Text>
   </Fragment>
 );
@@ -55,7 +52,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
           <div className={styles.content} ref={nodeRef}>
             <div className={styles.column}>
               <ProfileText visible={visible} titleId={titleId} />
-              <Button
+              {/* <Button
                 secondary
                 className={styles.button}
                 data-visible={visible}
@@ -63,7 +60,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 icon="send"
               >
                 Send me a message
-              </Button>
+              </Button> */}
             </div>
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
